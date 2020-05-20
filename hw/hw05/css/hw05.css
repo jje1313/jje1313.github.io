@@ -1,0 +1,49 @@
+/* hw05.css */
+
+/*     googlefonts */
+        @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap');
+        
+/* 전체 가운데 정렬         */
+        { margin: 0; padding: 0;}
+        #wrapper {
+            width: 700;
+            margin: 0 auto;
+        }
+        
+/* 본문 이전         */
+        #p_company {
+            font-family: 'Black Han Sans', sans-serif;
+        }
+        
+        #article_title {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin-bottom : 10px;
+        }
+        
+        #when { font-size: 0.9em;
+            color: gray; padding-top: 5px; }
+        
+/* 본문 1 */
+        .article {
+            padding: 20px 0; line-height: 25px;
+        }
+        
+        #img_min { padding-left: 20px;}
+        
+        .caption { color: grey; font-size: 0.9em;
+        padding-left: 140px;}
+        
+/* 본문 2 */
+        #img_mun { padding-left: 17px;}
+        
+/* 본문 3 */
+        #img_si { padding-left: 80px;}
+        #caption_2 { color: grey;
+            font-size: 0.9em; padding-left: 50px;
+        }
+        
+/* 본문 4 */
+        #img_ma { padding-left: 80px;}
+        #caption_3 { color: grey;
+            font-size: 0.9em; padding-left: 35px;
+        }

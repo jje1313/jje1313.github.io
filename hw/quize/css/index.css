@@ -1,0 +1,64 @@
+/* index.css */
+
+/* 배경 */
+        * { margin: 0; padding: 0; }
+        #wrapper {
+            width: 1200px; 
+            margin: 0 auto;
+            background-size: cover;
+            background: url('../img/woodwall.jpg') no-repeat;
+        }
+/*  버튼 */
+        #button {
+            width: 160px;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            font-size: 30px;
+            background-color: #96c6ea;
+        }
+        
+        #button a:hover {
+            font-size: 50px;
+            text-decoration-line: none;
+            color: azure;
+        }
+        
+        #button p {
+            color: white;
+            font-size: 0.5em;
+        }
+        
+        #menu li { display: inline;
+            line-height: 30px;
+            font-size: 1.2em;
+            padding-right: 50px;
+        }
+        
+/* 메뉴 */
+        #menu li a:hover {
+            color: mediumvioletred;
+            background-color: mistyrose;
+        }
+        
+/* 제목 */
+        #content { text-align: center;
+            padding: 30px; color: darkblue;
+            background-color: #e4bb9c;
+            margin-bottom: 30px;
+        }
+/* 로고 */
+        #logo img {
+            width: 250px; height: 250px;
+        }
+        #logo {
+            text-align: center;
+        }
+        
+/* 본인 */
+        #profile h3 {
+            text-align: center;
+            line-height: 30px;
+        }
+        #profile { padding-bottom: 80px;
+        }

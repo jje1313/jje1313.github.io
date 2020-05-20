@@ -1,0 +1,11 @@
+/* hw04.css */
+
+        #b1 {color: rosybrown;}
+        #b1 span {background-color: beige;}
+        #b2, #b3 {background-color: antiquewhite; list-style-type: none;}
+        hr {height: 5px; border: solid grey; background-color: grey;}
+        h3 {color: brown;}
+        .bb {text-align: center;}
+        #b3 {list-style-type: none;}
+        .link:active {background-color: yellow;}
+        #b4 {text-align: left;}
