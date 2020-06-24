@@ -1,0 +1,42 @@
+/* googlefonts */
+        @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR&display=swap');
+/* 배경 */
+        * {margin: 0; padding: 0;}
+        #wrapper {
+            width: 1000px;
+            margin: 0 auto;
+            background-size: cover;
+        }
+/* 로고 */
+        #logo a {
+            padding: 20px;
+            font-size: 30px; color: #f5fafd;
+            background-color: #96c6ea;
+            text-decoration: none;
+        }
+        #logo a:hover {
+            background-color: #f090c7;
+        }
+/* 메뉴 */
+
+        #menu a {text-decoration: none;}
+
+        #menu li {
+            display: inline;
+            padding: 30px 10px 10px 30px;
+            font-size: 20px;
+            font-family: 'Noto Sans KR', sans-serif;
+            text-align: center;
+            margin-left: 40px;
+        }
+        #menu b {
+            color: #6dd5ed;
+            font-size: 20px;
+            font-family: 'Do Hyeon', sans-serif;
+        }
+        #menu span_2:hover {
+            background-color: #90f0e9;
+        }
+        #menu span:hover {
+            background-color: #9097f0;
+        }

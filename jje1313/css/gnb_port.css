@@ -1,0 +1,74 @@
+/* gnb_port */
+
+/* 배경 */
+        * {margin: 0; padding: 0;}
+        #wrapper {
+            width: 1200px; margin: 0 auto;
+            height: 1500px;
+            background-color: rgba(230, 230, 230, 0.78);
+        }
+/* 로고 */
+        #logo {
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 2em;
+            padding-left: 20px;
+        }
+        #logo a {
+            text-decoration: none;
+            color: #068b78;
+        }
+        .fas {
+            font-size: 2em; color: #ffcf5e;
+            position: relative;
+            left: 45px;
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+/* 로그인 */
+        #log {
+            list-style-type: none;
+            position: absolute;
+            right: 100px; top: 70px;
+            font-size: 0.8em;
+        }
+        #login {
+            background-color: #f38181; color: #fbfbfb;
+            height: 30px; width: 50px;
+            border: 0px solid #ffffff;
+            cursor: pointer;
+        }
+        #log li {
+            display: inline-block;
+        }
+        #log li a {text-decoration: none; color: #000000;}
+/* 메뉴 */
+        nav li {
+            list-style-type: none;
+            display: inline-block;
+            padding-left: 90px;
+            padding-top: 40px;
+        }
+        nav#menu {
+            width: 1000px;
+            position: absolute;
+            left: 250px;
+            margin: 0 auto;
+        }
+        nav li a {
+            text-decoration: none;
+            color: #2eb872;
+        }
+        nav li a:hover {background-color: #f2ff97;}
+/* footer */
+        #footer li a {
+            text-decoration: none;
+            color: gray;
+            font-size: 1em;
+        }
+        #footer li {
+            list-style-type: none;
+            display: inline;
+            font-size: 0.8em;
+            color: gray;
+            padding-bottom: 20px;
+        }

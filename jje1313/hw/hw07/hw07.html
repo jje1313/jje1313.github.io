@@ -1,0 +1,91 @@
+<!-- hw07.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <style>
+        * {margin: 0; padding: 0;}
+/* 전체 */
+        #wrapper {
+            width: 1080px;
+            margin: 0 auto;
+        }
+/* 본문 */
+        #content {
+            position: relative;
+            top: 80px;
+            left: 270px;
+            padding: 2px;
+            width: 550px;
+        }
+/* 그룹 */
+        #group {
+            padding: 15px;
+        }
+/* 버튼 */
+        #button {
+            position: relative;
+            left: 450px;
+            top: 10px;
+        }
+/* 입력 사항 */
+        #a {
+            color: rosybrown;
+        }
+
+        .yn {display: inline;}
+        
+        #input {list-style-type: none;}
+    </style>
+</head>
+<body>
+     <div id="wrapper">
+<!-- 로고 -->
+       <div id="logo">
+           <a href="index.html"><b>jje1313</b></a>
+       </div><br>
+<!-- 메뉴 -->
+       <div id="menu">
+            <li><b>1-YA 정지은 +</b></li>
+            <li><span_2><a href="../hw02/week06/index.html">HW02</a></span_2></li>
+            <li><span_2><a href="../hw03/hw03.html">HW03</a></span_2></li>
+            <li><span_2><a href="../hw04/hw04.html">HW04</a></span_2></li>
+            <li><span><a href="../hw05/hw05.html">HW05</a></span></li>
+            <li><span><a href="./contact.html">Contact</a></span></li>
+            <li><span><a href="index.html">Profile</a></span></li>
+       </div><br><hr>
+<!-- 본문 -->
+        <div id="content">
+           <form>
+               <fieldset id="group">
+                    <legend><h2 id="a">입력 사항</h2></legend>
+                <form method="post">
+                <ul id="input">
+                    <li>*이름 : <input type="text" size="7"></li><br>
+                    <li>*아이디 : <input type="text" size="8" placeholder="5자~8자 입력" maxlength="8"></li><br>
+                    <li>*비밀번호 : <input type="password" size="9" placeholder="8자~16자 입력" maxlength="16"></li><br>
+                    <li class="yn">*휴대폰 : <input type="tel" size="11"></li>
+                    <li class="yn">&nbsp;&nbsp;SMS 수신 <input type="radio" name="sms_yn" checked>동의 <input type="radio" name="sms_yn">비동의</li><br><br>
+                    <li class="yn">이메일 : <input type="txtx" name="email" size="11"> @
+                    <select name="email" id="">
+                    <option>naver.com</option>
+                    <option>daum.net</option>
+                    <option>gmail.com</option>
+                    <option>직접입력</option>
+                    </select></li>
+                    <li class="yn">&nbsp;&nbsp;이메일 수신 <input type="radio" name="email_yn" checked>동의 <input type="radio" name="email_yn">비동의</li><br><br>
+                    <li>별명 : <input type="text" size="7" maxlength="5" placeholder="2자~5자 입력"></li>
+                </ul>
+                   <div id="button">
+                    <input type="submit" value="입력">
+                    <input type="reset" value="취소">
+                   </div>
+                </form>
+               </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

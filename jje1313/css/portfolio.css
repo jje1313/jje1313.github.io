@@ -1,0 +1,88 @@
+/* portfolio.css */
+
+/*메인 이미지 */
+        #content_1 ul {
+            list-style-type: none;
+        }
+        #content_1 img {
+            width: 170px; height: 300px;
+            border: 1px solid #000000;
+            margin-top: 50px;
+            box-shadow: 10px 5px 10px 5px #cccccc;
+        }
+        #content_1 li {
+            display: inline-block;
+            padding-left: 100px;
+        }
+        div#content_1 {
+            background-color: #fbfbfb;
+            height: 400px;
+            position: relative;
+            top: 150px;
+        }
+/* 릿터 */
+        #content_2 {
+            position: relative;
+            left: 100px; top: 300px;
+            background-color: #fbfbfb;
+            width: 500px;
+            padding: 30px;
+            box-shadow: 10px 5px 10px 5px #cccccc;
+        }
+        #content_2 li {
+            list-style-type: none;
+            padding-top: 10px;
+        }
+        #content_2 span {
+            font-size: 1.5em;
+        }
+        #content_2 a {
+            text-decoration: none;
+            color: black;
+        }
+/* 이벤트 */
+        #content_3 {
+            position: relative;
+            top: 350px; left: 100px;
+            background-color: #fbfbfb;
+            width: 500px; height: 200px;
+            padding: 30px;
+            box-shadow: 10px 5px 10px 5px #cccccc;
+        }
+        #content_3 li {
+            list-style-type: none;
+            padding-top: 20px;
+        }
+        #content_3 span {font-size: 1.5em;}
+        #content_3 span_2 {font-weight: bold;}
+        #content_3 li a {color: black;}
+        #content_3 span_3 {
+            position: absolute;
+            left: 450px; top: 190px;
+        }
+/* SNS */
+        #content_4 {
+            position: absolute;
+            left: 910px; top: 880px;
+            background-color: #fbfbfb;
+            padding: 30px;
+            box-shadow: 10px 5px 10px 5px #cccccc;
+        }
+        #content_4 li {
+            list-style-type: none;
+            padding-top: 20px;
+        }
+        #content_4 span {font-size: 1.5em;}
+        #content_4 li a {
+            color: black;
+            font-size: 1.2em;
+            text-decoration: none;
+            font-family: 'Do Hyeon', sans-serif;
+        }
+/* footer */
+        #footer {
+            position: relative;
+            top: 500px;
+            padding-left: 100px;
+            width: 1000px;
+        }

@@ -1,0 +1,113 @@
+/* familyday.css */
+
+#wrapper {
+            height: 3100px;
+        }
+/* 이미지 */
+        div#image li {
+            list-style-type: none;
+            text-align: center;
+        }
+        div#image img {
+            width: 750px; height: 800px;
+            position: relative;
+            top: 220px;
+        }
+/* content_1 */
+        #content_1 p {
+            font-size: 2em;
+            color: #be4747;
+            font-weight: bold;
+            text-align: center;
+            position: absolute;
+            top: 240px;
+            width: 1200px;
+        }
+        #content_1 li {
+            list-style-type: none;
+            position: relative;
+            top: 250px; left: 280px;
+            padding-top: 20px;
+            width: 900px;
+        }
+        #content_1 span {
+            font-size: 1.5em;
+        }
+        div#back {
+            background-color: #fbfbfb;
+            width: 750px; height: 300px;
+            margin: 0 auto;
+            border-top: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+        }
+/* content_2 */
+        #content_2 li {
+            list-style-type: none;
+            padding-top: 20px;
+            position: relative;
+            left: 50px;
+        }
+        #content_2 span {
+            font-size: 1.3em;
+        }
+        div#content_2 {
+            background-color: #fbfbfb;
+            height: 200px; width: 750px;
+            margin: 0 auto;
+            border-top: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+        }
+/* content_3 */
+        #content_3 {
+            background-color: #fbfbfb;
+            height: 320px; width: 750px;
+            margin: 0 auto;
+            border-top: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+        }
+        #content_3 li {
+            list-style-type: none;
+            padding-top: 20px;
+            position: relative;
+            left: 50px;
+        }
+        #content_3 span {
+            font-size: 1.3em;
+        }
+        #content_3 span_2 {
+            font-weight: bold;
+        }
+/* 이미지 */
+        .books img {
+            width: 750px;
+        }
+        .books li {
+            list-style-type: none;
+            text-align: center;
+        }
+/* content_4 */
+        #content_4 li {
+            list-style-type: none;
+            padding-top: 20px;
+            position: relative;
+            left: 50px;
+        }
+        #content_4 span {font-size: 1.3em;}
+        #content_4 {
+            background-color: #fbfbfb;
+            height: 160px; width: 750px;
+            margin: 0 auto;
+            border-top: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+        }
+/* footer */
+            #footer {
+            position: relative;
+            top: 100px;
+            padding-left: 100px;
+            padding-bottom: 20px;
+            width: 1000px;
+        }
+        div#back_4 {
+            background-color: #fbfbfb;
+        }

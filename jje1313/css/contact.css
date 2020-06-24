@@ -1,0 +1,36 @@
+/* contact.css */
+
+/* 배경 */
+        * {margin: 0; padding: 0;}
+        #wrapper {
+            width: 1000px;
+            margin: 0 auto;
+            background-size: cover;
+        }
+
+/* 본문 */
+        #content {
+            position: relative;
+            top: 80px;
+            left: 270px;
+            padding: 2px;
+            width: 550px;
+        }
+/* 그룹 */
+        #group {
+            padding: 15px;
+        }
+/* 버튼 */
+        #button {
+            position: relative;
+            left: 450px;
+            top: 10px;
+        }
+/* 입력 사항 */
+        #a {
+            color: rosybrown;
+        }
+
+        .yn {display: inline;}
+        
+        #input {list-style-type: none;}
